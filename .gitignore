@@ -1,5 +1,0 @@
-# Ignore database files
-*.db
-
-# Ignore CSV files
-*.csv
