@@ -1,0 +1,21 @@
+library(tidyverse)
+
+trips_2019q3_df <- read_csv("../data/raw/Divvy_Trips_2019_Q3.csv")
+head(trips_2019q3_df)
+str(trips_2019q3_df)
+colnames(trips_2019q3_df)
+glimpse(trips_2019q3_df)
+# View(trips_2019q3_df)
+
+trips_2020q1_df <- read_csv("../data/raw/Divvy_Trips_2020_Q1.csv")
+head(trips_2020q1_df)
+str(trips_2020q1_df)
+colnames(trips_2020q1_df)
+glimpse(trips_2020q1_df)
+# View(trips_2020q1_df)
+
+trips_2019q2_df <- read_csv("../data/raw/Divvy_Trips_2019_Q2.csv")
+head(trips_2019q2_df)
+str(trips_2019q2_df)
+colnames(trips_2019q2_df)
+glimpse(trips_2019q2_df)
